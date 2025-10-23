@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Onsite Info",
+    "lead": "Make the most of your time at RDC with essential onsite event information at your fingertips.",
+    "backgroundImage": {
+      "src": "header_background.png"
+    }
+  },
+  "map": {
+    "content": "",
+    "title": "Campus Map",
+    "image": {
+      "src": "rdc23_map_attendee.png",
+      "alt": "On-Site Map"
+    }
+  },
+  "info": [
+    {
+      "title": "Event Schedule",
+      "content": "Discover everything taking place each day at RDC23 by visiting the event schedule page [here](https://rdc23.fnvirtual.app/a/schedule/). You can also build your own event schedule from there."
+    },
+    {
+      "title": "Event Venue ",
+      "content": "RDC23 is taking place at the Fort Mason Center (2 Marina Blvd, San Francisco, CA 94109). Get to the venue using [Google Maps](https://goo.gl/maps/gG6TaVYVCsLqiJSL7). Ample paid parking is available, and rideshare services (Uber or Lyft) are also easily accessible in the area."
+    },
+    {
+      "title": "Get Connected",
+      "content": "SSID: RDC2023\nPASS: createnow"
+    },
+    {
+      "title": "Lost & Found",
+      "content": "Please visit Lost & Found located at Pier 2, Foyer for any lost belongings. Once RDC23 concludes, any unclaimed items will be given to the Roblox security team and made available for pick up at Roblox HQ in San Mateo."
+    },
+    {
+      "title": "Emergencies & Security Issues",
+      "content": "For immediate assistance, you can text or call 424-431-8611, flag down any onsite event security personnel, or visit the Help desk located at Pier 2, Foyer."
+    }
+  ]
+}

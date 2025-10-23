@@ -1,0 +1,121 @@
+{
+  "hero": {
+    "title": "Frequently Asked Questions",
+    "lead": "Get all the information you need on topics such as health and safety, registration, accessibility, and much more. Make sure to follow our [Twitter](https://twitter.com/roblox) for the latest news and updates.",
+    "backgroundImage": {
+      "src": "header_background.png"
+    }
+  },
+  "categories": [
+    {
+      "title": "Registration",
+      "questionsAndAnswers": [
+        {
+          "question": "When and where will RDC 2023 take place?",
+          "answer": "The conference will be two full days of activities, and take place on September 8-9 at the Fort Mason Center: 2 Marina Blvd., San Francisco, CA 94123. The scheduled hours of the conference will be: Friday, September 8: 8:00AM - 5:00PM and Saturday, September 9: 8:00AM - 10:00PM."
+        },
+        {
+          "question": "What is included in the conference in-person pass?",
+          "answer": "The in-person pass is your ticket to the full RDC experience. This includes the keynotes, breakout sessions, Roblox Innovation Awards, networking events, meals, and virtual access to the conference."
+        },
+        {
+          "question": "What is included in the virtual pass?",
+          "answer": "The virtual pass lets you access the event livestream and virtual booths."
+        },
+        {
+          "question": "Is there an age requirement to attend RDC 2023?",
+          "answer": "You must be 18 years of age or older to attend."
+        },
+        {
+          "question": "Can I transfer my ticket to someone else? ",
+          "answer": "Unfortunately we are not able to accommodate ticket transfers for RDC."
+        },
+        {
+          "question": "What is the cost of a ticket to attend RDC?",
+          "answer": "The in-person cost per ticket is $80 USD, which is limited to invited in-person guests only. The virtual ticket is free and is also limited to invite-only guests."
+        },
+        {
+          "question": "Can I sign-up onsite at the venue?",
+          "answer": "No. You must be an invited in-person registered attendee to attend the in-person event."
+        },
+        {
+          "question": "When will registration close?",
+          "answer": "Registration will remain open until we reach capacity for the event. Don’t wait – register now to secure your spot!"
+        },
+        {
+          "question": "I'm a member of the press. How can I get more information?",
+          "answer": "If you‘re a reporter or analyst who is interested in learning more about RDC, please contact the RDC press team for more information: press@roblox.com. "
+        },
+        {
+          "question": "Who do I contact if I have registration issues?",
+          "answer": "If you have any issues with registration, please contact RDCregistration@fntech.com."
+        }
+      ]
+    },
+    {
+      "title": "Health and Safety",
+      "questionsAndAnswers": [
+        {
+          "question": "What health and safety protocols are in place for RDC 2023?",
+          "answer": "Our first priority is the safety and health of our attendees, speakers, and staff.  We are taking precautions to be safe when we gather.  In addition, we are committed to closely monitoring health trends and aligned to the latest guidance from the Centers for Disease Control and Prevention (CDC) and federal, state, and local governments. Before traveling to RDC: We encourage attendees to stay up to date with COVID-19 vaccinations and boosters. In addition we encourage attendees to self-test for COVID-19 in advance of traveling if feeling sick. If you test positive please remain home. Onsite at RDC: If you feel unwell while in San Francisco please take a COVID-19 self-test and isolate as needed. Masks are optional, and will be available upon request for your comfort and convenience at all registration counters within Fort Mason Center. Hand sanitizer stations and PPE supplies will be available throughout the venue."
+        },
+        {
+          "answer": "Yes. This year, refunds on your RDC ticket will be issued up until the date of the event and all processing fees will be waived. Email RDCregistration@fntech.com to request a refund.",
+          "question": "Can I request a refund for any COVID-19 related matter, such as, but not limited to, governmental travel restrictions, new data showing increase of COVID-19 infections, or a personal COVID-19 related infection/concern?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "title": "Event Logistics",
+      "questionsAndAnswers": [
+        {
+          "question": "Will you have security and a bag check?",
+          "answer": "We take your safety and security very seriously. RDC is a private event in a public space. A security perimeter will be in place for the safety of all attendees both days, so arrive early to allow time for security screenings and bag checks."
+        },
+        {
+          "question": "Will meals be provided?",
+          "answer": "Yes, breakfast and lunch will be provided both days, and we’ll have snacks and beverages available throughout the conference. Also, there will be dinner served at the Roblox Innovation Awards ceremony."
+        },
+        {
+          "question": "What if I have a food allergy / intolerance? ",
+          "answer": "Kosher, vegetarian, vegan, and gluten-free options will be available. Additionally, please check our menus to identify which items contain common food allergens."
+        },
+        {
+          "question": "What should I wear to the Roblox Innovation Awards?",
+          "answer": "Formal attire is highly encouraged but most importantly come in what makes you feel comfortable!"
+        }
+      ]
+    },
+    {
+      "title": "Travel",
+      "questionsAndAnswers": [
+        {
+          "question": "I am not a U.S. resident or citizen. Is a visa required to attend RDC?",
+          "answer": "Please check with your local government on the documents required for your travel to the United States."
+        },
+        {
+          "question": "What do I need to bring with me to the conference?",
+          "answer": "Please bring a government-issued form of photo ID, such as a driver‘s license or passport, to be presented when you check in."
+        },
+        {
+          "question": "Are there discounted hotel rates for attendees?",
+          "answer": "We've secured a limited number of reduced-rate hotel rooms for invited in-person attendees. Hotel information will be sent to those attendees, and we encourage all attendees to book as early as possible."
+        },
+        {
+          "question": "Will transportation from designated hotels be provided?",
+          "answer": "No, shuttles will not be provided from partnered hotels this year. However, local transportation (e.g. Uber, Lyft, etc) is easily available in addition to paid parking at the event venue. More information will be sent to in-person attendees."
+        }
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "questionsAndAnswers": [
+        {
+          "question": "How do I request accessibility services?",
+          "answer": "If you require special assistance, auxiliary aids, or other reasonable accommodations to fully participate in this event, please email RDCregistration@fntech.com. Information regarding disabilities and special assistance will remain confidential."
+        }
+      ]
+    }
+  ]
+}

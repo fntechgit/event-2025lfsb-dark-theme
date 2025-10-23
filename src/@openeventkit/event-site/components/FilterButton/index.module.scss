@@ -1,0 +1,31 @@
+// all styles same as default implementation except the ones overriden below.
+.filterButton {
+  position: fixed;
+  // no top value needed since navbar implementation is actually sticky
+  //top: 7.25rem;
+  left: -15px;
+  color: var(--color_input_text_color);
+  background-color: var(--color_input_background_color);
+  border-color: var(--color_input_border_color);
+  border: none;
+  height: 50px;
+  width: calc(100% + 30px);
+  font-size: 18px;
+  z-index: 2;
+  cursor: pointer;
+
+  i {
+    margin-right: 10px;
+  }
+
+  @media (min-width: 992px) {
+    display: none;
+  }
+
+  &.open {
+    background-color: var(--color_background_light);
+    text-align: left;
+    padding-left: 15px;
+    left: 0;
+  }
+}

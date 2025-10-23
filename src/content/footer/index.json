@@ -1,0 +1,52 @@
+{
+  "social": [
+    {
+      "link": " https://twitter.com/roblox",
+      "src": "twitter.png",
+      "hover": "twitter-hover.png"
+    },
+    {
+      "link": "https://www.linkedin.com/company/roblox/",
+      "src": "linkedin.png",
+      "hover": "linkedin-hover.png"
+    },
+    {
+      "link": "https://www.instagram.com/Roblox/",
+      "src": "instagram.png",
+      "hover": "instagram-hover.png"
+    },
+    {
+      "src": "tiktok.png",
+      "hover": "tiktok-hover.png",
+      "link": "https://www.tiktok.com/@roblox?is_from_webapp=1&sender_device=pc"
+    },
+    {
+      "link": "https://www.youtube.com/Roblox",
+      "src": "youtube.png",
+      "hover": "youtube-hover.png"
+    }
+  ],
+  "links": [
+    {
+      "text": "TERMS",
+      "link": "https://rdc23.fnvirtual.app/terms/"
+    },
+    {
+      "text": "PRIVACY",
+      "link": "https://en.help.roblox.com/hc/en-us/articles/115004630823-Roblox-Privacy-and-Cookie-Policy"
+    },
+    {
+      "text": "ACCESSIBILITY",
+      "link": "https://en.help.roblox.com/hc/en-us/articles/360059080071-Roblox-Accessibility-Statement"
+    },
+    {
+      "text": "Roblox.com",
+      "link": "https://www.roblox.com"
+    }
+  ],
+  "logo": {
+    "src": "",
+    "alt": "",
+    "link": ""
+  }
+}

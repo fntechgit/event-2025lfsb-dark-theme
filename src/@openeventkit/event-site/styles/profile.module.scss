@@ -1,0 +1,183 @@
+// this file is copied from event-site counter part to implement component css shadowing
+// all styles same as default implementation except the ones overriden below.
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/elements/button.sass";
+@import "bulma/sass/components/modal.sass";
+@import "bulma/sass/form/_all.sass";
+@import '@openeventkit/event-site/src/styles/colors.scss';
+
+// add z-index to show above navbar
+.modal {
+  z-index: 100000;
+}
+
+.modal-card {
+  background-color: var(--color_background_light);
+  color: var(--color_text_dark);
+  // the margin is different from the original to display the popup centered
+  margin: auto;
+
+  .modal-card-head {
+    padding: 10px 20px;
+    background-color: var(--color_background_light);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display: flex;
+    align-items: center;
+
+    .modal-card-title {
+      font-weight: bold;
+      margin-bottom: 0;
+      color: var(--color_text_dark);
+    }
+
+    .close-icon {
+      color: var(--color_text_dark);
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+
+  .modal-card-body {
+    padding: 0px;
+    background-color: var(--color_background_light);
+    .modal-card-picture {
+      .title {
+        background-color: var(--color_background_light);
+        padding: 10px 20px;
+        font-weight: bold;
+        border-bottom: 1px solid #dbdbdb;
+      }
+
+      .picture {
+        background-color: var(--color_background_light);
+        text-align: center;
+        padding: 0px 20px 20px;
+        position: relative;
+
+        .image-upload {
+          position: absolute;
+          top: 65%;
+          left: 48%;
+
+          >input {
+            display: none;
+          }
+
+          .picture-icon {
+            color: #ffffff;
+            z-index: 100;
+            cursor: pointer;
+          }
+        }
+
+        .input-row {
+          align-items: center;
+
+          div:last-child {
+            display: flex;
+            justify-content: space-evenly;
+
+            input[type=range] {
+              display: inline-flex;
+            }
+
+            .button {
+              padding-top: 6px;
+              align-items: baseline;
+              background-color: var(--color_input_background_color) !important;;
+              color: var(--color_input_text_color) !important;
+              border-color: var(--color_input_border_color) !important;
+              i {
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+
+      border-bottom: 1px solid #dbdbdb;
+    }
+
+    .modal-card-form {
+      .title {
+        padding: 10px 20px;
+        font-weight: bold;
+        border-bottom: 1px solid #dbdbdb;
+      }
+
+      .form {
+        text-align: center;
+        padding: 20px;
+
+        .input-row {
+          align-items: center;
+        }
+      }
+
+      .link-profile {
+        margin: 15px 50px;
+        display: block;
+      }
+    }
+  }
+
+  .modal-card-foot {
+    background-color: var(--color_background_light);
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    button {
+      width: 20rem;
+      height: 4.5rem;
+      background-color: var(--color_input_background_color) !important;;
+      color: var(--color_input_text_color) !important;
+      border-color: var(--color_input_border_color) !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .modal {
+    // the top is different from the original to match the navbar height on mobile
+    top: 46px;
+
+    .modal-background {
+      background-color: transparent;
+    }
+
+    .modal-card {
+      overflow: auto;
+
+      .modal-card-body {
+        overflow: none;
+
+        .modal-card-picture {
+          .picture {
+            .image-upload {
+              top: 56%;
+            }
+          }
+        }
+      }
+
+      .modal-card-foot {
+        display: flex;
+        flex-direction: column;
+
+        button {
+          width: 100%;
+          height: 5.5rem;
+          background-color: var(--color_input_background_color) !important;;
+          color: var(--color_input_text_color) !important;
+          border-color: var(--color_input_border_color) !important;
+          &:last-of-type {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

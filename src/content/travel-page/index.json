@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "San Francisco’s Calling",
+    "lead": "Don't miss your chance to experience the stunning scenery and vibrant culture of San Francisco during this exciting event at Fort Mason Center. With so much to see and do, you may want to add a few more days to your trip.",
+    "backgroundImage": {
+      "src": "header_background.png"
+    }
+  },
+  "thingsToDo": {
+    "title": "Things to do in San Francisco",
+    "image": {
+      "src": "san-francisco-hallmarks.png",
+      "alt": "San Francisco Hallmarks"
+    },
+    "content": "Home to iconic landmarks and world-renowned museums, this vibrant city by the bay is home to a wealth of activities and attractions that are sure to delight visitors of all ages and interests."
+  },
+  "venue": {
+    "title": "Where it’s\nhappening",
+    "image": {
+      "src": "fort-mason-center-venue.png",
+      "alt": "Fort Mason Center"
+    },
+    "content": "#### Fort Mason Center\n\nGet ready for an unforgettable experience at Fort Mason Center, one of San Francisco's most iconic and historic landmarks. This sprawling complex of former military buildings and warehouses is now a hub of cultural and community events, and there's no better time to experience it than during RDC.",
+    "address": "2 Marina Blvd, San Francisco, CA 94109"
+  },
+  "accommodations": {
+    "title": "Places to stay",
+    "content": "Looking for the perfect place to stay during your visit to San Francisco? Look no further than our carefully selected hotels, each offering unique amenities and experiences to suit your every need. Book your reservations in one of our RDC blocks below:\n",
+    "hotels": [
+      {
+        "name": "Hyatt Centric Fisherman's Wharf San Francisco",
+        "address": "555 North Point St, San Francisco, CA 94133",
+        "book": {
+          "text": "Click here to book",
+          "link": "https://www.hyatt.com/shop/sfofw?location=Hyatt%20Centric%20Fisherman%27s%20Wharf%20San%20Francisco&checkinDate=2023-09-07&checkoutDate=2023-09-10&rooms=1&adults=1&kids=0&corp_id=G-ROBL"
+        },
+        "info": "Deadline to book: August 25, 2023\nRate: $289/night plus taxes and fees "
+      }
+    ]
+  },
+  "nearbyAirports": {
+    "title": "Nearby Airports",
+    "airports": [
+      {
+        "name": "San Francisco International Airport",
+        "image": {
+          "src": "san-francisco-international-airport.png",
+          "alt": "San Francisco International Airport"
+        },
+        "distance": "15 Miles | 25 KM from venue"
+      },
+      {
+        "name": "Oakland International Airport",
+        "image": {
+          "src": "oakland-international-airport.png",
+          "alt": "Oakland International Airport"
+        },
+        "distance": "22 Miles | 34 KM from venue"
+      },
+      {
+        "name": "San Jose International Airport",
+        "image": {
+          "src": "san-jose-iternational-airport.png",
+          "alt": "San Jose International Airport"
+        },
+        "distance": "50 Miles | 78 KM from venue"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "What Will You\nCreate?",
+    "leadTitle": "When And Where",
+    "lead": "September 8–9\nFort Mason Center\nSan Francisco, CA",
+    "buttons": {
+      "registerButton": {
+        "display": false,
+        "text": "Register\nNow"
+      },
+      "loginButton": {
+        "display": true,
+        "text": "Login"
+      }
+    },
+    "backgroundMedia": "animation1280x720moov.mp4"
+  },
+  "featuring": {
+    "content": "The Roblox Developers Conference (RDC) is an invite-only hybrid (in-person and online) event that brings together the most innovative creators from our global community so they can build connections, learn, and share ideas.\n\nFeaturing groundbreaking keynote presentations, in-depth breakout sessions, and networking opportunities, RDC is designed to empower you with the knowledge you need to reach your full creative potential on Roblox.",
+    "title": "More Than Just a Conference",
+    "image": {
+      "src": "keynote.png",
+      "alt": "Keynote Presentation Image"
+    }
+  },
+  "attend": {
+    "title": "Attendees Will Have\na Chance To",
+    "benefits": [
+      {
+        "concept": "Meet",
+        "description": "Meet and network with other experienced creators from around the world",
+        "backgroundImage": {
+          "src": "meet-background.png"
+        },
+        "foregroundImage": {
+          "src": "meet-foreground.png"
+        }
+      },
+      {
+        "concept": "Learn",
+        "description": "Learn about our latest product developments and gain insights into our future roadmap",
+        "backgroundImage": {
+          "src": "gain-background.png"
+        },
+        "foregroundImage": {
+          "src": "rdc23_fnv_image_learn_individual.png"
+        }
+      },
+      {
+        "concept": "Share",
+        "description": "Share feedback and ideas directly with Roblox technology leaders",
+        "backgroundImage": {
+          "src": "share-background.png"
+        },
+        "foregroundImage": {
+          "src": "share-foreground.png"
+        }
+      }
+    ]
+  },
+  "awards": {
+    "title": "The Roblox Innovation Awards (RIAs) Return, Bigger Than Ever",
+    "content": "#### What better way to end our biggest RDC yet than an epic night of celebration?\n\nJoin us as we honor the best and brightest in the community at our second annual in-person awards ceremony: the RIAs! You’ll be treated to a sit-down dinner, plus a special after-party where you can mingle with your fellow nominees and winners. Come as you are or dress up in your awards show best – this is one night you won’t want to miss.",
+    "image": {
+      "src": "rdc23_fnv_ria_071223_v2.png",
+      "alt": "Innovation Awards & After Party Image"
+    }
+  },
+  "callToAction": {
+    "buttons": {
+      "loginButton": {
+        "display": true,
+        "text": "Login"
+      },
+      "registerButton": {
+        "display": true,
+        "text": "Register\nNow"
+      }
+    },
+    "display": true,
+    "title": "What Will You Create?",
+    "backgroundImage": {
+      "src": "cta_background.png"
+    }
+  }
+}

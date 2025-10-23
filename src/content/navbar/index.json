@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "title": "HOME",
+      "link": "/a/",
+      "display": false,
+      "userRequirement": "LOGGED_IN",
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "userRequirement": "NONE",
+      "showOnlyAtShowTime": false,
+      "pageRestriction": [
+        "ANY"
+      ],
+      "title": "TRAVEL",
+      "link": "/travel",
+      "display": true
+    },
+    {
+      "userRequirement": "LOGGED_IN",
+      "showOnlyAtShowTime": false,
+      "pageRestriction": [
+        "ANY"
+      ],
+      "title": "ONSITE INFO",
+      "link": "/onsite-info",
+      "display": true
+    },
+    {
+      "title": "SCHEDULE",
+      "link": "/a/schedule",
+      "display": true,
+      "userRequirement": "NONE",
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "title": "MY SCHEDULE",
+      "link": "/a/my-schedule",
+      "display": true,
+      "userRequirement": "LOGGED_IN",
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "title": "FAQ",
+      "link": "/faqs",
+      "display": true,
+      "userRequirement": "NONE",
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "userRequirement": "NONE",
+      "showOnlyAtShowTime": false,
+      "pageRestriction": [
+        "ANY"
+      ],
+      "title": "TERMS",
+      "link": "/terms",
+      "display": true
+    },
+    {
+      "title": "MY ORDER",
+      "link": "/a/my-tickets",
+      "display": true,
+      "userRequirement": "LOGGED_IN",
+      "pageRestriction": [
+        "ANY"
+      ]
+    },
+    {
+      "title": "MY PROFILE",
+      "link": "/a/profile",
+      "display": true,
+      "userRequirement": "LOGGED_IN",
+      "pageRestriction": [
+        "ANY"
+      ]
+    }
+  ]
+}

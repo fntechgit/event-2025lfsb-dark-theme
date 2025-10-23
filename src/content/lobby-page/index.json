@@ -1,0 +1,17 @@
+{
+  "centerColumn": {
+    "speakers": {
+      "showTodaySpeakers": false,
+      "showFeatureSpeakers": false
+    }
+  },
+  "hero": {
+    "title": "WELCOME TO RDC23",
+    "subTitle": "VIRTUAL LOBBY",
+    "background": {
+      "src": "8f56ac28951518ff36e8a48fee71bea0-1-.png",
+      "alt": "RDC23 Header IMAGE"
+    }
+  },
+  "liveNowFeaturedEventId": ""
+}
