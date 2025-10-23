@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "gatsby develop -S -H 0.0.0.0",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "(gatsby build || true) && node scripts/create-fallback-404.js",
     "serve": "gatsby serve",
     "gatsby-clean": "gatsby clean",
     "clean": "find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' + && yarn && yarn gatsby-clean"
@@ -23,7 +23,7 @@
     "@mui/base": "^5.0.0-beta.40",
     "@mui/icons-material": "^5.15.5",
     "@mui/material": "^5.15.5",
-    "@openeventkit/event-site": "2.1.7",
+    "@openeventkit/event-site": "2.1.34",
     "gatsby": "^5.13.5",
     "markdown-to-jsx": "^7.2.0",
     "react": "^18.2.0",

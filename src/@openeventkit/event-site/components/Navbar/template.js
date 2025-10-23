@@ -11,7 +11,8 @@ import IconButton from "@mui/material/IconButton";
 import SvgIcon from "@mui/material/SvgIcon";
 import Avatar from "@mui/material/Avatar";
 import Link, { AnimatedLink } from "../../../../components/Link";
-import ProfilePopupComponent from "@openeventkit/event-site/src/components/ProfilePopupComponent";
+// ProfilePopupComponent doesn't exist in the plugin - commenting out for now
+// import ProfilePopupComponent from "@openeventkit/event-site/src/components/ProfilePopupComponent";
 import LogoutButton from "../LogoutButton";
 
 // needed to identify schedule page, to change sticky breakpoint for fnevent stock breakpoints handling 
@@ -38,7 +39,7 @@ const CloseIcon = () =>
 ;
 
 const NavbarTemplate = ({
-  data: pages,
+  data: pages = [],
   summit,
   isLoggedUser,
   idpLoading,
@@ -309,7 +310,8 @@ const NavbarTemplate = ({
         }
       </Stack>
     </Drawer>
-    {isLoggedUser && idpProfile &&
+    {/* ProfilePopupComponent not available in plugin - commenting out for now */}
+    {/* isLoggedUser && idpProfile &&
     <ProfilePopupComponent
       userProfile={idpProfile}
       showProfile={Boolean(anchorElProfile)}
@@ -321,7 +323,7 @@ const NavbarTemplate = ({
         zIndex: 10000
       }}
     />
-    }
+    */}
     </>
   );
 }

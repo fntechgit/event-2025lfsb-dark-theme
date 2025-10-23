@@ -7,6 +7,7 @@ module.exports = `
   type Button {
     text: String
     display: Boolean
+    externalRegistrationLink: String
   }
   type MarketingPageJoinButtons {
     registerButton: Button

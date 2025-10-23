@@ -33,6 +33,12 @@ const AttendCarousel = ({
   const lg = useMediaQuery(theme.breakpoints.only("lg"));
   const slidesPerView = xs ? 1 : md ? 2 : 3;
   const spaceBetween = md ? 24 : lg ? 32 : 40;
+
+  // Avoid SSR issues with Swiper
+  if (typeof window === 'undefined') {
+    return null;
+  }
+
   return (
     <Box
       component={Swiper}
