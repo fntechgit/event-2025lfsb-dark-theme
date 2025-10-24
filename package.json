@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "gatsby develop -S -H 0.0.0.0",
     "start": "gatsby develop",
-    "build": "(gatsby build || true) && node scripts/create-fallback-404.js",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "gatsby-clean": "gatsby clean",
     "clean": "find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' + && yarn && yarn gatsby-clean"
