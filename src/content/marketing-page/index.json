@@ -6,7 +6,8 @@
     "buttons": {
       "registerButton": {
         "display": false,
-        "text": "Register\nNow"
+        "text": "Register\nNow",
+        "externalRegistrationLink": "https://example.com/register"
       },
       "loginButton": {
         "display": true,
@@ -74,7 +75,8 @@
       },
       "registerButton": {
         "display": true,
-        "text": "Register\nNow"
+        "text": "Register\nNow",
+        "externalRegistrationLink": "https://example.com/register"
       }
     },
     "display": true,
