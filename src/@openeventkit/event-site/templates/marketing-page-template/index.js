@@ -20,7 +20,7 @@ import Link from "../../../../../src/components/Link";
 import AttendanceTrackerComponent from "@openeventkit/event-site/src/components/AttendanceTrackerComponent";
 import RegistrationLiteComponent from "@openeventkit/event-site/src/components/RegistrationLiteComponent";
 import AuthComponent from "@openeventkit/event-site/src/components/AuthComponent";
-import { getMediaFileType, MEDIA_TYPES } from "../../../utils/helpers";
+import { getMediaFileType, MEDIA_TYPES } from "../../../../utils/helpers";
 
 const pageStyles = {
   backgroundColor: "#000"

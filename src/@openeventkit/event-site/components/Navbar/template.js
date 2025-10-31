@@ -10,8 +10,7 @@ import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import SvgIcon from "@mui/material/SvgIcon";
 import Avatar from "@mui/material/Avatar";
-import Link, { AnimatedLink } from "../../../../components/Link";
-import ProfilePopupComponent from "@openeventkit/event-site/src/components/ProfilePopupComponent";
+import { AnimatedLink } from "../../../../components/Link";
 import LogoutButton from "../LogoutButton";
 
 // needed to identify schedule page, to change sticky breakpoint for fnevent stock breakpoints handling 
@@ -38,24 +37,15 @@ const CloseIcon = () =>
 ;
 
 const NavbarTemplate = ({
-  data: pages,
+  items,
+  logo,
   summit,
   isLoggedUser,
-  idpLoading,
   idpProfile,
-  updateProfile,
-  updateProfilePicture,
-  defaultPath,
-  logo
+  onLogoClick,
+  onProfileIconClick
 }) => {
   const [menuOpen, setMenuOpen] = React.useState(false);
-  const [anchorElProfile, setAnchorElProfile] = React.useState(null);
-  const handleOpenProfile = (event) => {
-    setAnchorElProfile(event.currentTarget);
-  };
-  const handleCloseProfile = () => {
-    setAnchorElProfile(null);
-  };
   const toggleMenu = (open) => (event) => {
     setMenuOpen(open);
   };
@@ -108,29 +98,26 @@ const NavbarTemplate = ({
               },
             }}
           >
-            <Link
-              to={isLoggedUser ? defaultPath : "/"}
-            >
-              <Box
-                sx={{
-                  img: {
-                    height: {
-                      xs: 16,
-                      lg: 20
-                    },
-                    width: {
-                      xs: 71.89,
-                      lg: 89.87
-                    }
+            <Box
+              sx={{
+                img: {
+                  height: {
+                    xs: 16,
+                    lg: 20
+                  },
+                  width: {
+                    xs: 71.89,
+                    lg: 89.87
                   }
-                }}
-              >
-                <img
-                  src={logo}
-                  alt={summit.name}
-                />
-              </Box>
-            </Link>
+                }
+              }}
+              onClick={onLogoClick}
+            >
+              <img
+                src={logo}
+                alt={summit.name}
+              />
+            </Box>
           </Box>
           }
           <Box
@@ -175,15 +162,15 @@ const NavbarTemplate = ({
               }
             }}
           >
-            {pages.map((page) => (
+            {items.map((item) => (
               <AnimatedLink
-                key={page.title}
-                to={page.link}
+                key={item.title}
+                to={item.link}
               >
                 <Typography
                   variant="caption2"
                 >
-                  {page.title}
+                  {item.title}
                 </Typography>
               </AnimatedLink>
             ))}
@@ -203,7 +190,7 @@ const NavbarTemplate = ({
               title="Edit Profile"
             >
               <IconButton
-                onClick={handleOpenProfile}
+                onClick={onProfileIconClick}
                 sx={{
                   p: 0
                 }}
@@ -268,10 +255,10 @@ const NavbarTemplate = ({
           pl: 2
         }}
       >
-        {pages.map((page) => (
+        {items.map((item) => (
         <AnimatedLink
-          key={page.title}
-          to={page.link}
+          key={item.title}
+          to={item.link}
           style={{
             width: "fit-content"
           }}
@@ -279,14 +266,14 @@ const NavbarTemplate = ({
           <Typography
             variant="caption1"
           >
-            {page.title}
+            {item.title}
           </Typography>
         </AnimatedLink>
         ))}
         {isLoggedUser && idpProfile &&
         <Box>
           <IconButton
-            onClick={handleOpenProfile}
+            onClick={onProfileIconClick}
             sx={{
               p: 0
             }}
@@ -309,19 +296,6 @@ const NavbarTemplate = ({
         }
       </Stack>
     </Drawer>
-    {isLoggedUser && idpProfile &&
-    <ProfilePopupComponent
-      userProfile={idpProfile}
-      showProfile={Boolean(anchorElProfile)}
-      idpLoading={idpLoading}
-      changePicture={updateProfilePicture}
-      changeProfile={updateProfile}
-      closePopup={handleCloseProfile}
-      style={{
-        zIndex: 10000
-      }}
-    />
-    }
     </>
   );
 }
